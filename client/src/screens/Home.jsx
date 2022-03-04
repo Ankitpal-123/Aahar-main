@@ -1,10 +1,14 @@
 import React from "react";
-import RasoiCard from "../components/home/RasoiCard";
+import Happy from "../components/home/Happy";
+// import DishCard2 from "../components/home/DishCard2";
+// import RasoiCard from "../components/home/RasoiCard";
 
 const Home = () => {
   return (
     <>
-      <RasoiCard />
+      {/* <RasoiCard /> */}
+      {/* <DishCard2 /> */}
+      <Happy/>
     </>
   );
 };
