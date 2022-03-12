@@ -1,5 +1,6 @@
 import "./App.css";
-import Home from "./screens/Home";
+import FoodDisplay from "./components/foodInfo/FoodDisplay";
+// import Home from "./screens/Home";
 // import Landing from "./screens/Landing";
 // import Login from "./screens/Login";
 
@@ -8,7 +9,8 @@ function App() {
     <>
       {/* <Landing /> */}
       {/* <Login /> */}
-      <Home />
+      {/* <Home /> */}
+      <FoodDisplay />
     </>
   );
 }
