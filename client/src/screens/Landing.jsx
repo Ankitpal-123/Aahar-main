@@ -1,5 +1,6 @@
 import React from "react";
-import Corausel from "../components/Corausel";
+import FamousPik from "../components/FamousPik";
+
 import Footer from "../components/Footer";
 import HDAW from "../components/HDAW";
 import Header from "../components/Header";
@@ -10,7 +11,7 @@ const Landing = () => {
     <div className="bg-orange-200">
       <Navbar />
       <Header />
-      <Corausel />
+      <FamousPik />
       <HDAW />
       <Footer />
     </div>
