@@ -1,5 +1,7 @@
 import "./App.css";
-import Home from "./screens/Home";
+import Gallery from "./components/Gallery";
+import Review from "./components/Review";
+// import Home from "./screens/Home";
 // import Landing from "./screens/Landing";
 // import Login from "./screens/Login";
 
@@ -8,7 +10,9 @@ function App() {
     <>
       {/* <Landing /> */}
       {/* <Login /> */}
-      <Home />
+      {/* <Home /> */}
+      {/* <Gallery/> */}
+      <Review/>
     </>
   );
 }
